@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text } from 'react-native';
-import * as Font from 'expo-font';
 
 export default class PoemView extends Component {
 

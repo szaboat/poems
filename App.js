@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 
 import { ScrollView } from "react-native-gesture-handler";
-import { StyleSheet } from "react-native";
 import { createStackNavigator, createAppContainer } from "react-navigation";
 
-import poems from "./poems";
+import PoemRepository from "./repositories/PoemsRepository";
 import Title from "./Title";
 import List from "./List";
 import DetailsScreen from "./DetailsScreen";
@@ -21,10 +20,12 @@ class HomeScreen extends Component {
   };
 
   render() {
+    this.poems = PoemRepository.getPoems();
+
     return (
       <ScrollView style={containerStyle.container}>
         <Title>Kányádi Sándor egyberostált versei</Title>
-        <List list={poems.sort((a, b) => (a.text > b.text))} onPressItem={this.showStory} />
+        <List list={this.poems.sort((a, b) => (a.text > b.text))} onPressItem={this.showStory} />
       </ScrollView>
     );
   }
