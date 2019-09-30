@@ -20,6 +20,6 @@ const styles = StyleSheet.create({
     title: {
         textAlign: 'left',
         fontSize: 22,
-        fontWeight: 'bold'
+        fontFamily: 'Latin Modern Roman Bold'
     },
 })

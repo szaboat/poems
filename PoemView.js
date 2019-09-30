@@ -30,12 +30,13 @@ const styles = StyleSheet.create({
         justifyContent:'center',
     },
     title: {
-        fontWeight: 'bold',
         fontSize: 22,
         paddingTop: 10,
+        fontFamily: 'Latin Modern Roman Bold',
         paddingBottom: 10,
     },
     body: {
-        lineHeight: 20 
+        lineHeight: 20,
+        fontFamily: 'Latin Modern Roman'
     }
 })

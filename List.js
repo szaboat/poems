@@ -38,5 +38,6 @@ const styles = StyleSheet.create(
   row: {
     paddingTop: 10,
     paddingBottom: 10,
+    fontFamily: 'Latin Modern Roman'
   }
 })
