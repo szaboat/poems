@@ -172,6 +172,36 @@ poems = [
       "étlen maradt szegény Péter.'"
     ]
   },
+  {
+    id: 7,
+    text: "Valaki jár a fák hegyén",
+    body: [
+    "valaki jár a fák hegyén",
+      "ki gyújtja s oltja csillagod",
+      "csak az nem fél kit a remény",
+      "már végképp magára hagyott",
+      "",
+      "én félek még reménykedem",
+      "ez a megtartó irgalom",
+      "a gondviselő félelem",
+      "kísért eddigi utamon",
+      "",
+      "valaki jár a fák hegyén",
+      "vajon amikor zuhanok",
+      "meggyújt-e akkor még az én",
+      "tüzemnél egy új csillagot",
+      "",
+      "vagy engem is egyetlenegy",
+      "sötétlő maggá összenyom",
+      "s nem villantja föl lelkemet",
+      "egy megszülető csillagon",
+      "",
+      "valaki jár a fák hegyén",
+      "mondják úr minden porszemen",
+      "mondják hogy maga a remény",
+      "mondják maga a félelem",
+  ]
+  }
 ];
 
 export default poems;
